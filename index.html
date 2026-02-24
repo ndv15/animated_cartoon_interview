@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashback Interview Monologue</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="stage">
+    <header>
+      <h1>Flashback Interview Monologue</h1>
+      <p class="meta">Animated storyboard • 12 scenes • auto-play</p>
+    </header>
+
+    <section class="viewport">
+      <div id="scene" class="scene"></div>
+      <div class="overlay">
+        <div class="badge" id="scene-number">Scene 1</div>
+        <h2 id="scene-title"></h2>
+        <p id="visual"></p>
+      </div>
+    </section>
+
+    <section class="captions">
+      <p id="speaker"></p>
+      <p id="line"></p>
+    </section>
+
+    <footer>
+      <button id="toggle">Pause</button>
+      <button id="restart">Restart</button>
+      <div class="progress-wrap"><div id="progress"></div></div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
