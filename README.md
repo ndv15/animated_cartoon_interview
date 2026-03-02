@@ -1,6 +1,6 @@
 # Doorstep Flow Marketing Website (Original Concept)
 
-This repository contains an original, single-page marketing site for a fictional resident lifestyle services brand, now expanded with authority-building sections.
+This repository now contains an original, single-page marketing website for a fictional resident lifestyle services brand.
 
 ## Run locally
 
@@ -12,9 +12,9 @@ Then open `http://localhost:8000`.
 
 ## Highlights
 
-- Responsive navigation with mobile menu toggle.
-- Hero, services, trust/authority section, KPI band, resources/proof section, launch steps, and CTA.
-- Animated percentage counters when KPI stats enter the viewport.
+- Responsive navigation with a mobile menu toggle.
+- Hero section, service cards, KPI section, and CTA.
+- Lightweight animated percentage counters on scroll.
 
 ## Notes
 
