@@ -12,9 +12,9 @@ Then open `http://localhost:8000`.
 
 ## Highlights
 
-- Responsive navigation with a mobile menu toggle.
-- Hero section, service cards, KPI section, and CTA.
-- Lightweight animated percentage counters on scroll.
+- Responsive navigation with mobile menu toggle.
+- Hero, services, trust/authority section, KPI band, resources/proof section, launch steps, and CTA.
+- Animated percentage counters when KPI stats enter the viewport.
 
 ## Notes
 
