@@ -1,6 +1,6 @@
 # Doorstep Flow Marketing Website (Original Concept)
 
-This repository contains an original, single-page marketing site for a fictional resident lifestyle services brand, now expanded with authority-building sections.
+This repository now contains an original, single-page marketing website for a fictional resident lifestyle services brand.
 
 ## Run locally
 
