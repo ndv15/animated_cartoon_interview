@@ -1,22 +1,21 @@
-# Flashback Interview Monologue (Animated Storyboard)
+# Doorstep Flow Marketing Website (Original Concept)
 
-This project creates a browser-based animated storyboard for your interview monologue script.
+This repository now contains an original, single-page marketing website for a fictional resident lifestyle services brand.
 
-## Run
+## Run locally
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Open: `http://localhost:8000`
+Then open `http://localhost:8000`.
 
-## What it includes
+## Highlights
 
-- 12 auto-playing scenes aligned to your storyline.
-- Animated scene transitions and progress bar.
-- Captioned speaker + line for each scene.
-- Controls for pause/resume and restart.
+- Responsive navigation with a mobile menu toggle.
+- Hero section, service cards, KPI section, and CTA.
+- Lightweight animated percentage counters on scroll.
 
 ## Notes
 
-- This is a stylized animated storyboard (visual + text), ready to be expanded with full voiceover, character art, and exported video pipeline.
+This is a custom concept design and does not reuse proprietary branding assets.

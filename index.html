@@ -3,36 +3,112 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flashback Interview Monologue</title>
+  <title>Doorstep Flow | Resident Lifestyle Services</title>
+  <meta name="description" content="Doorstep Flow helps multifamily communities deliver cleaner grounds, happier residents, and smoother operations." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="stage">
-    <header>
-      <h1>Flashback Interview Monologue</h1>
-      <p class="meta">Animated storyboard • 12 scenes • auto-play</p>
-    </header>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="#">Doorstep<span>Flow</span></a>
+      <button id="menu-btn" class="menu-btn" aria-label="Toggle menu">☰</button>
+      <nav id="nav" class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#results">Results</a>
+        <a href="#how">How It Works</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <section class="viewport">
-      <div id="scene" class="scene"></div>
-      <div class="overlay">
-        <div class="badge" id="scene-number">Scene 1</div>
-        <h2 id="scene-title"></h2>
-        <p id="visual"></p>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Resident Experience, Elevated</p>
+          <h1>Modern doorstep and amenity services for multifamily communities.</h1>
+          <p class="hero-copy">We partner with property teams to deliver dependable nightly doorstep collection, common-area care, and resident-first communication.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Book a Demo</a>
+            <a class="btn btn-secondary" href="#services">Explore Services</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Trusted by property teams nationwide</h3>
+          <ul>
+            <li><strong>2.1M+</strong> units supported annually</li>
+            <li><strong>98.4%</strong> on-time service consistency</li>
+            <li><strong>24/7</strong> resident support response</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="captions">
-      <p id="speaker"></p>
-      <p id="line"></p>
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services built for communities that care</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Doorstep Collection</h3>
+            <p>Structured nightly pickup programs with clear resident guidelines and real-time service verification.</p>
+          </article>
+          <article class="card">
+            <h3>Valet Recycling</h3>
+            <p>Simple, sustainable pickup workflows that improve participation and keep recycling streams cleaner.</p>
+          </article>
+          <article class="card">
+            <h3>Community Care</h3>
+            <p>Shared-area touchups and waste-room standards that help properties protect curb appeal every day.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <footer>
-      <button id="toggle">Pause</button>
-      <button id="restart">Restart</button>
-      <div class="progress-wrap"><div id="progress"></div></div>
-    </footer>
+    <section id="results" class="section section-dark">
+      <div class="container stats-grid">
+        <div>
+          <p class="stat" data-target="34">0%</p>
+          <p>Average reduction in overflow-related resident complaints.</p>
+        </div>
+        <div>
+          <p class="stat" data-target="19">0%</p>
+          <p>Increase in resident satisfaction where programs are adopted.</p>
+        </div>
+        <div>
+          <p class="stat" data-target="91">0%</p>
+          <p>Property managers who report improved operational confidence.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2>How we launch in 3 steps</h2>
+        <ol class="steps">
+          <li><strong>Site Planning:</strong> We map routes, policies, and communication plans to your layout.</li>
+          <li><strong>Resident Rollout:</strong> Branded move-in kits, reminders, and multilingual support.</li>
+          <li><strong>Measured Optimization:</strong> Monthly reporting with actionable service insights.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section cta">
+      <div class="container cta-wrap">
+        <div>
+          <h2>Ready to simplify site operations?</h2>
+          <p>Tell us about your community portfolio and we’ll build a tailored service plan.</p>
+        </div>
+        <a class="btn btn-primary" href="mailto:hello@doorstepflow.example">Contact Sales</a>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© 2026 Doorstep Flow. All rights reserved.</p>
+      <p>Original demo site design created for concept purposes.</p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
